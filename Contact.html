@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumah Makan Lezat - Kontak</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #8B4513; color: white; padding: 20px; text-align: center; }
+        nav { background-color: #A0522D; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 40px; max-width: 1200px; margin: 0 auto; }
+        .contact-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .contact-item { background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+        .contact-item img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
+        form { background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-top: 20px; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background-color: #8B4513; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+        button:hover { background-color: #A0522D; }
+        footer { background-color: #8B4513; color: white; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kontak Rumah Makan Lezat</h1>
+        <p>Hubungi kami untuk reservasi, pesanan, atau pertanyaan</p>
+    </header>
+    <nav>
+        
+        <a href="menu.html">Menu</a>
+        <a href="about.html">Tentang Kami</a>
+        <a href="contact.html">Kontak</a>
+    </nav>
+    <section>
+        <h2>Informasi Kontak Lengkap</h2>
+        <p>Kami siap membantu Anda dengan berbagai layanan, mulai dari reservasi meja hingga pesanan catering. Jangan ragu untuk menghubungi kami melalui telepon, email, atau kunjungi langsung. Kami memiliki tim customer service yang responsif dan ramah.</p>
+        
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="https://source.unsplash.com/featured/?restaurant,location" alt="Lokasi Restoran">
+                <h3>Alamat</h3>
+                <p>Jl. Kuliner No. 123, Jakarta Pusat, DKI Jakarta 10110<br>Indonesia</p>
+                <p>Kami berada di lokasi strategis, dekat dengan stasiun kereta dan mall besar. Parkir luas tersedia.</p>
+            </div>
+            <div class="contact-item">
+                <img src="https://source.unsplash.com/featured/?phone,contact" alt="Kontak Telepon">
+                <h3>Telepon & WhatsApp</h3>
+                <p>Telepon: (021) 1234-5678<br>WhatsApp: +62 812-3456-7890</p>
+                <p>Hubungi untuk reservasi atau informasi menu. Kami menerima pesanan antar mulai pukul 11 pagi.</p>
+            </div>
+            <div class="contact-item">
+                <img src="https://source.unsplash.com/featured/?email,office" alt="Email Kantor">
+                <h3>Email</h3>
+                <p>info@rumahmakanlezat.com<br>reservasi@rumahmakanlezat.com</p>
+                <p>Kirim email untuk pertanyaan bisnis atau acara khusus. Kami akan balas dalam 24 jam.</p>
+            </div>
+        </div>
+        
+        <h2>Jam Operasional</h2>
+        <p>Rumah Makan Lezat buka setiap hari dengan jam sebagai berikut:</p>
+        <ul>
+            <li><strong>Senin - Jumat:</strong> 10:00 - 22:00 WIB</li>
+            <li><strong>Sabtu - Minggu:</strong> 09:00 - 23:00 WIB</li>
+            <li><strong>Hari Libur Nasional:</strong> 11:00 - 21:00 WIB</li>
+        </ul>
+        <p>Untuk acara pribadi atau kelompok besar, kami sarankan reservasi minimal 2 hari sebelumnya. Kami juga menyediakan layanan take-away dan delivery melalui partner seperti GoFood atau GrabFood.</p>
+        
+        <h2>Kirim Pesan Kepada Kami</h2>
+        <form action="#" method="post"> <!-- Ganti # dengan URL backend jika ada -->
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Telepon:</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Kirim Pesan</button>
+        </form>
+        
+        <h2>Lokasi di Peta</h2>
+        <p>Gunakan peta di bawah untuk navigasi ke restoran kami. Kami dekat dengan landmark seperti Monas dan Istiqlal Mosque.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5!2d106.8!3d-6.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTInMDAuMCJOIDEwNsKwNDgnMDAuMCJF!5e0!3m2!1sen!2sid!4v1234567890123" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> <!-- Ganti embed URL dengan lokasi asli -->
+    </section>
+    <footer>
+        <p>&copy; 2026 Rumah Makan Lezat. Semua hak dilindungi. | Ikuti kami di Instagram: @rumahmakanlezat</p>
+    </footer>
+</body>
+</html>
